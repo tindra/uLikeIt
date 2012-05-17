@@ -1,0 +1,315 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="ulikeit.ru" data-template-set="html5-reset">
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Index</title>
+	<meta name="description" content="">
+	<meta name="google-site-verification" content="">
+	<link rel="shortcut icon" href="../i/favicon.ico">
+	<link type="text/css" href="../css/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/uli.css">
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../js/modernizr.custom.min.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="border"></div>
+    <div class="border border_r"></div>
+    <header class="page-header" role="banner">
+        <div class="page-header-wrapper">
+            <img src="../i/logo.png" alt="U Like It" class="page-header-logo">
+            <hgroup>
+                <h1 class="page-header-title">U Like It&nbsp;*</h1>
+                <h2 class="page-header-subtitle">*&nbsp;Вам нравится!</h2>
+            </hgroup>
+
+            <div class="reach_us">
+                <p class="phone"><i class="i i-phone"></i><span class="phone-code">(495)</span> 785-98-75</p>
+                <p>Понедельник – Пятница<br>с 10 до 20 часов</p>
+            </div>
+
+            <div class="in_cart in_cart_act"><i class="i i-bag"></i>Корзина <span class="in_cart-number">0</span></div>
+
+            <nav class="nav clearfix" role="navigation">
+                <ul class="nav-items ">
+                    <li class="nav-item"><a href="">О нас</a></li>
+                    <li class="nav-item"><a href="">Доставка и оплата</a></li>
+                    <li class="nav-item"><a href="">Контакты</a></li>
+                </ul>
+                <div class="f-search">
+                    <form action="search-catalog.html">
+                        <p>
+                            <label for="s" class="f-search-label">Искать:</label>
+                        	<span class="input"><input type="text" id="s" name="s" value="" placeholder="Поиск" title="Поиск" class="readonly"></span>
+                        	<span class="f-search-submit"><input type="submit" value="Search"></span>
+                        </p>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header><!-- /Page header -->
+
+    <div class="page-content">
+    	<div class="columns">
+        	<div class="col_l" role="complementary">
+        	    <div class="sorter">
+        	       <ul class="sorter-items">
+        	           <li class="sorter-item sorter-title"><label><input type="checkbox"> Все категории</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Кольца</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Серьги</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Подвески</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Колье</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Браслеты</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Цепи</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Броши</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Брелоки</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Резинки</label></li>
+        	       </ul>
+        	    </div>
+
+        	    <div class="sorter">
+        	       <ul class="sorter-items">
+        	           <li class="sorter-item sorter-title"><label><input type="checkbox"> Все назначения</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Для мужчин</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Для женщин</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Детские</label></li>
+        	       </ul>
+        	    </div>
+
+        	    <div class="sorter">
+        	       <ul class="sorter-items">
+        	           <li class="sorter-item sorter-title"><label><input type="checkbox"> Все цены</label></li>
+        	           <li class="soter-item">
+        	               <div class="rule">
+        	                   <ul class="rule-items">
+            	                   <li class="rule-item"><span class="rule-item-value">0</span></li>
+            	                   <li class="rule-item"><span class="rule-item-value">1000</span></li>
+            	                   <li class="rule-item"><span class="rule-item-value">2000</span></li>
+            	                   <li class="rule-item"><span class="rule-item-value">3000</span></li>
+            	                   <li class="rule-item"><span class="rule-item-value">4000</span></li>
+            	                   <li class="rule-item"><span class="rule-item-value">&gt;</span></li>
+                               </ul>
+        	               </div>
+        	               <div id="slider"></div>
+        	               <p class="range">от <span class="input"><input type="text"></span> до <span class="input"><input type="text"></span> рублей</p>
+        	           </li>
+        	       </ul>
+        	    </div>
+
+        	    <div class="sorter">
+        	       <ul class="sorter-items">
+        	           <li class="sorter-item sorter-title"><label><input type="checkbox"> Все цвета металла</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Белый металл</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> Жёлтый металл</label></li>
+        	       </ul>
+        	    </div>
+
+        	    <div class="sorter">
+        	       <ul class="sorter-items">
+        	           <li class="sorter-item sorter-title"><label><input type="checkbox"> Все цвета</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_white"></span> Белый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_black"></span> Черный</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_trans"></span> Прозрачный</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_orange"></span> Оранжевый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_yellow"></span> Желтый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_red"></span> Красный</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_pink"></span> Розовый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_violet"></span> Фиолетовый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_blue"></span> Синий</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_lblue"></span> Голубой</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_green"></span> Зеленый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_grey"></span> Серый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_beige"></span> Бежевый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_brown"></span> Коричневый</label></li>
+        	           <li class="sorter-item"><label><input type="checkbox"> <span class="clr clr_mix"></span> Смешанный</label></li>
+        	       </ul>
+        	    </div>
+        	</div><!-- /Column Left -->
+        	
+        	<div class="col_r" role="main">
+        	    <div class="carousel">
+            	    <div class="carousel-items">
+            	        <a class="i i-prev"><i>Previous</i></a>
+            	        <a class="i i-next"><i>Next</i></a>
+                        <ul>
+                            <li class="carousel-item"><img src="../i/temp/gallery.gif" alt=""></li>
+                            <li class="carousel-item"><img src="../i/temp/gallery.gif" alt=""></li>
+                            <li class="carousel-item"><img src="../i/temp/gallery.gif" alt=""></li>
+                            <li class="carousel-item"><img src="../i/temp/gallery.gif" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="offers">
+                    <ul class="offers-items">
+                        <li class="offers-item"><a href=""><img src="../i/temp/banner-220-140.gif" alt=""></a></li>
+                        <li class="offers-item"><a href=""><img src="../i/temp/banner-220-140.gif" alt=""></a></li>
+                        <li class="offers-item">
+                            <div class="help">
+                                <h3 class="help-title"><a href="#" class="pseudo_link" id="link_ask"><i class="i i-help"></i> Задайте вопрос стилисту</a></h3>
+                                <p>бесплатная консультация профессионала</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <section class="special-offers">
+                    <hgroup>
+                        <h2 class="special-offers-title">Счастливый день недели</h2>
+                        <h3 class="special-offers-subtitle">На этой неделе: скидка 20% на коллекцию кулонов!</h3>
+                    </hgroup>
+                    <div class="catalog-items" id="catalog">
+                        <article class="catalog-item">
+                            <div class="catalog-item-wrapper">
+                                <i class="i i-sale">Распродажа</i>
+                                <div class="catalog-item-img"><a href="catalog-item.html"><img src="../i/temp/item-185.gif" alt=""></a></div>
+                                <h3 class="catalog-item-title"><a href="catalog-item.html">Колье</a></h3>
+                                <p class="catalog-item-price">1400&nbsp;руб.</p>
+                                <div class="catalog-item-hidden">
+                                    <p class="catalog-item-txt">Подвеска со стразами</p>
+                                    <p><a href="" class="btn">В корзину</a></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="catalog-item">
+                            <div class="catalog-item-wrapper">
+                                <i class="i i-sale">Распродажа</i>
+                                <div class="catalog-item-img"><a href="catalog-item.html"><img src="../i/temp/item-185.gif" alt=""></a></div>
+                                <h3 class="catalog-item-title"><a href="catalog-item.html">Колье</a></h3>
+                                <p class="catalog-item-price">1400&nbsp;руб.</p>
+                                <div class="catalog-item-hidden">
+                                    <p class="catalog-item-txt">Подвеска со стразами</p>
+                                    <p><a href="" class="btn">В корзину</a></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="catalog-item">
+                            <div class="catalog-item-wrapper">
+                                <i class="i i-sale">Распродажа</i>
+                                <div class="catalog-item-img"><a href="catalog-item.html"><img src="../i/temp/item-185.gif" alt=""></a></div>
+                                <h3 class="catalog-item-title"><a href="catalog-item.html">Колье</a></h3>
+                                <p class="catalog-item-price">1400&nbsp;руб.</p>
+                                <div class="catalog-item-hidden">
+                                    <p class="catalog-item-txt">Подвеска со стразами</p>
+                                    <p><a href="" class="btn">В корзину</a></p>
+                                </div>
+                            </div>
+                        </article>
+                    </div><!-- /Catalog items -->
+                </section>
+                
+                <aside class="seo">
+                    <h3 class="seo-title">Текст для сео</h3>
+                    <p>Бижуте&#769;рия (от&nbsp;фр. bijouterie)&nbsp;&mdash; украшения из&nbsp;недорогих материалов. В&nbsp;производстве используются разнообразные металлы и&nbsp;сплавы, разные сорта прозрачного и&nbsp;цветного стекла, пластмассы, керамики и&nbsp;др. По&nbsp;внешнему виду бижутерия может не&nbsp;уступать &laquo;настоящим&raquo; ювелирным изделиям, но&nbsp;ее&nbsp;стоимость окажется гораздо ниже.<br>
+                    Начиная с&nbsp;середины&nbsp;XX века бижутерия, созданная мастерами высокой моды или художниками, стала цениться иногда даже выше изделий из&nbsp;драгоценных камней и&nbsp;металлов. Такие изделия делались либо в&nbsp;подчеркнуто примитивном стиле, либо довольно изысканно. Носить бижутерию, созданную мастером по&nbsp;оригинальному заказу или проекту стало хорошим тоном.</p>
+
+                    <p>Бижуте&#769;рия (от&nbsp;фр. bijouterie)&nbsp;&mdash; украшения из&nbsp;недорогих материалов. В&nbsp;производстве используются разнообразные металлы и&nbsp;сплавы, разные сорта прозрачного и&nbsp;цветного стекла, пластмассы, керамики и&nbsp;др. По&nbsp;внешнему виду бижутерия может не&nbsp;уступать &laquo;настоящим&raquo; ювелирным изделиям, но&nbsp;ее&nbsp;стоимость окажется гораздо ниже.<br>
+                    Начиная с&nbsp;середины&nbsp;XX века бижутерия, созданная мастерами высокой моды или художниками, стала цениться иногда даже выше изделий из&nbsp;драгоценных камней и&nbsp;металлов. Такие изделия делались либо в&nbsp;подчеркнуто примитивном стиле, либо довольно изысканно. Носить бижутерию, созданную мастером по&nbsp;оригинальному заказу или проекту стало хорошим тоном.</p>
+                </aside>
+        	</div><!-- /Column Right -->	
+        </div>
+    </div><!-- /Page content -->
+</div><!-- /Page -->
+
+<footer class="page-footer" role="contentinfo">
+    <div class="page-footer-header clearfix">
+        <address>&copy; 2012 U like it!<br>Электронная почта: <a href="mailto:info@u-likeit.ru">info@u-likeit.ru</a></address>
+        <p class="phone"><i class="i i-phone"></i><span class="phone-code">(495)</span> 785-98-75</p>
+        <p class="page-footer-nav"><a href="">Контакты</a> | <a href="">Доставка и оплата</a></p>
+    </div>
+    <div class="page-footer-bottom clearfix">
+        <ul>
+            <li><a href="">Браслеты</a></li>
+            <li><a href="">Браслеты шамбала</a></li>
+            <li><a href="">Браслеты Франция</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Колье</a></li>
+            <li><a href="">Колье бирюза</a></li>
+            <li><a href="">Колье бижютерия</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Бусы</a></li>
+            <li><a href="">Бусы бижютерия</a></li>
+            <li><a href="">Бусы стекло</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Кольца</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Резинки</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Броши</a></li>
+        </ul>
+    </div>
+</footer><!-- /Page footer -->
+
+<div class="overlay"></div>
+<div class="popup" id="popup_ask">
+    <div class="popup-content">
+        <h3 class="popup-title">Ваш вопрос стилисту:</h3>
+        <div class="form f-ask">
+            <form action="">
+                <div class="f-row">
+                    <div class="f-data">
+                        <span class="input-wrapper"><span class="input input_textarea"><textarea rows="8" cols="" id="id-message" tabindex="1">Что модно этим летом?</textarea></span></span>
+                    </div>
+                </div>
+                <div class="f-row f-row_linear">
+                    <label for="id-name" class="f-label">Имя:</label>
+                    <div class="f-data">
+                        <span class="input-wrapper"><span class="input"><input type="text" id="id-name" tabindex="2" maxlength=""></span></span>
+                    </div>
+                </div>
+                <div class="f-row f-row_linear">
+                    <label for="id-email" class="f-label">Электронная почта:</label>
+                    <div class="f-data">
+                        <span class="input-wrapper"><span class="input"><input type="email" id="id-email" tabindex="3" maxlength=""></span></span>
+                    </div>
+                </div>
+                <div class="f-row f-row_submit">
+                    <span class="btn">Отправить<input type="submit" id="id-submit" tabindex="4" value="Отправить"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- here comes the javascript -->
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='../js/jquery-1.7.2.min.js'>\x3C/script>")</script>
+<script src="../js/jquery.uniform.min.js"></script>
+<script src="../js/jquery-ui-1.8.20.custom.min.js"></script>
+<script src="../js/jcarousellite_1.0.1.min.js"></script>
+<script src="../js/fns.js"></script>
+
+<!-- Asynchronous google analytics; this is the official snippet.
+	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
+	 
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+-->
+  
+</body>
+</html>
